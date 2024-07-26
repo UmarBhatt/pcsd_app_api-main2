@@ -1,0 +1,8 @@
+1000Rs
+100Rs
+10Rs
+20Rs
+5000Rs
+500Rs
+50Rs
+others

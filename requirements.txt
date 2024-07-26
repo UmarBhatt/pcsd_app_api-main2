@@ -1,0 +1,10 @@
+fastapi
+anyio==3.7.0
+h11==0.14.0
+httpcore==0.17.1
+httptools==0.5.0
+httpx==0.24.1
+idna==3.4
+numpy==1.24.2
+Pillow==9.5.0
+tensorflow==2.14.0
