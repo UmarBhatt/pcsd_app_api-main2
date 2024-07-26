@@ -8,7 +8,9 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install the dependencies
-RUN python -m venv /opt/venv && . /opt/venv/bin/activate && pip install --no-cache-dir -r requirements.txt
+RUN python -m venv /opt/venv && \
+    . /opt/venv/bin/activate && \
+    pip install --no-cache-dir -r requirements.txt
 
 # Copy the rest of your app's source code into the container at /app
 COPY . .
